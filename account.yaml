@@ -3,6 +3,3 @@ spring:
     consul:
       discovery:
         health-check-url: http://host.docker.internal:8081/actuator/health
-
-server:
-  port: 8081
