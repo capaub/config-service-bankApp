@@ -3,3 +3,7 @@ spring:
     consul:
       discovery:
         health-check-url: http://host.docker.internal:8082/actuator/health
+
+logging:
+  level:
+    root: DEBUG
