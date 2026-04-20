@@ -2,7 +2,7 @@ spring:
   cloud:
     consul:
       discovery:
-        health-check-url: http://host.docker.internal:8083/actuator/health
+        health-check-url: http://host.docker.internal:7073/actuator/health
 
 server:
-  port: 8083
+  port: 7073
