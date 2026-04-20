@@ -1,8 +1,5 @@
 spring:
     
-  config:
-    import: ${IMPORT_CONFIG}
-    
   h2:
     console:
       enabled: true
