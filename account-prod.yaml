@@ -1,0 +1,7 @@
+  cloud:
+    consul:
+      discovery:
+        health-check-url: http://host.docker.internal:6061/actuator/health
+
+server:
+  port: 6061
