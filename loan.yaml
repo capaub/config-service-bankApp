@@ -2,4 +2,4 @@ spring:
   cloud:
     consul:
       discovery:
-        health-check-url: http://host.docker.internal:8083/actuator/health
+        health-check-url: http://consul:7071/actuator/health
