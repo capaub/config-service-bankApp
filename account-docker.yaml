@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        hostname: account
+
+server:
+  port: 6061
