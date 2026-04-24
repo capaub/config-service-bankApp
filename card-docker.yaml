@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        health-check-url: http://card:6062/actuator/health
+
+server:
+  port: 6062
