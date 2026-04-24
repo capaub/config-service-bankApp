@@ -1,8 +1,12 @@
 spring:
   cloud:
     consul:
+      host: consul
+      port: 8500
       discovery:
-        health-check-url: http://card:6062/actuator/health
+        hostname: card
+        port: 6062
+        health-check-path: /actuator/health
 
 server:
   port: 6062
