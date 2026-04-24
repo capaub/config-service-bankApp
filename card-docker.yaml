@@ -4,7 +4,7 @@ spring:
       host: consul
       port: 8500
       discovery:
-        hostname: card
+        hostname: card-dk
         port: 6062
         health-check-path: /actuator/health
 
